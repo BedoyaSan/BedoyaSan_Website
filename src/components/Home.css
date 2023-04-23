@@ -1,0 +1,41 @@
+#linkLinkedin {
+    opacity: 0%;
+    margin-bottom: 0%;
+    overflow: hidden;
+    animation: fadeIn;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+#linkGitHub {
+    opacity: 0%;
+    overflow: hidden;
+    animation: fadeIn;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+#linkDiscord {
+    opacity: 0%;
+    overflow: hidden;
+    animation: fadeIn;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+    0%{
+        margin-top: 100%;
+        opacity: 0%;
+    }
+    90% {
+        margin-top: -5%;
+    }
+    100%{
+        margin-top: 0%;
+        opacity: 100%;
+        height: auto;
+    }
+}
